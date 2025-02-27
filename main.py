@@ -1,8 +1,6 @@
 import os
 from crewai import Agent, Task, Crew
 
-
-
 info_agent = Agent(
     role = "Information Agent",
     goal = "To provide information about a certain topic.",
